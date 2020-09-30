@@ -37,12 +37,12 @@ $(document).ready(function () {
 
 function getForecast(searchvalue) {
     $.ajax({
-        url: "https://api.openweathermap.org/data/2.5/weather?appid=298e7cec3267bf8dbf8d5c54ff6dc6a7&units=imperial&q=" + searchvalue,
+        url: "https://api.openweathermap.org/data/2.5/forecast?appid=298e7cec3267bf8dbf8d5c54ff6dc6a7&cnt=40&units=Imperialq=" + searchvalue,
         type: "GET",
         dataType: "json",
         success: function (data) {
-        $("#forecast").html("<h4 class=\"mt-3\">5-Day Forecast:</h4>").append("<div class=\"row\">");    
         
+
         }
 
 

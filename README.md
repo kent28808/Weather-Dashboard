@@ -2,11 +2,11 @@
 
 ## Description
 
-This is my fitth project, where I was tasked with creating a simple calendar application that allows the user to save events for each hour of the day.  
-This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
-[Moment.js] was used to display the current date and time.
+This is my sixth project, where I was tasked with creating a weather dashboard application that allows the user to view current weather temperatures for any location in the USA, and a 5-day forecast.
+This application uses a third party API to grab weather data that includes temperature, humidity, windspeed and UV index.  
 
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
+
+![Weather Dashboard](my-class-repo/HW/Weather-Dashboard/Assets/06-server-side-apis-homework-demo.png)
 
 
 ## Built With
@@ -21,7 +21,7 @@ This app will run in the browser and feature dynamically updated HTML and CSS po
 
 ## Deployed Link
 
-* [Deployed link](https://kent28808.github.io/Schedule-planner/)
+* [Deployed link](https://kent28808.github.io/Weather-Dashboard/)
 
 
 ## Authors
@@ -57,4 +57,4 @@ SOFTWARE.
 
 ## Acknowledgments
 
-* Hats off to instructional staff, and all technology libraries used.
+* Hats off to instructional staff, and all technology libraries used and openweathermap for their free API key.
